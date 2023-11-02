@@ -23,5 +23,9 @@ You will need the following to install the new system:
 - An Internet Connection
 - A 2nd Computer to ssh into the Fedora one
 - A 4GB Flashdrive
-- The Fedora Everything ISO
-More to come
+- The Fedora Everything ISO which you can download [here]([https://pages.github.com/](https://alt.fedoraproject.org/)https://alt.fedoraproject.org/)
+- Balena Etcher downloaded
+
+## Section 2: Installation
+
+I need to get to bed so this will be done another time
