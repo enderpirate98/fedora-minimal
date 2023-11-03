@@ -30,7 +30,7 @@ To get started you will need [Balena Etcher](https://etcher.balena.io/) to flash
 
 Reboot your device and when the manufacturer's logo comes up mash the boot menu key (Example for Dell is F12) and select the flash drive to boot from (if you have a Nvidia Graphics card in your device you will have to boot into the main bios menu and disable secureboot because the drivers needed can't be loaded unless you do shenanigans to get it working)
 
-Set your language and then go into ``Installation Destonation`` and double click the disk you want to install Fedora to and click ``Done`` (WARNING: Make sure all important data is backed up before installation)
+Set your language and then go into ``Installation Destination`` and double click the disk you want to install Fedora to and click ``Done`` (WARNING: Make sure all important data is backed up before installation)
 
 It is recommended to leave the root user disabled for security reasons but if you need it you can enable it
 
@@ -38,8 +38,18 @@ After setting your username an password, check to see if the timezone informatio
 
 As for software selection go with the ``Minimal Install`` option and if you need wifi then somewhere in the list to the right there should be a ``NetworkManager`` option that will make connecting to wifi possible
 
-After that in the main menu click ``Begin Installation and wait for your (Very little packages!) Fedora system install
+After that in the main menu click ``Begin Installation`` and wait for your (Very little packages!) Fedora system install
 
 ## Section 3 Installing KDE Plasma and Flatpak
 
-More to come
+You may be wondering why there is no GUI, don't worry it will be a few easy steps to install KDE plasma.
+
+To make this simple we will be using an application called ``ssh`` to remote in from another computer so that we can just copy and paste the commands
+
+Login to your computer and type the command ``ip a`` and you will note that there are 2 lines that start with ```inet``` please remember the 2nd one, on a different computer type the command: ``ssh yourusernamehere@your.ip.address`` and login to your user
+
+The hardest part is over and now copy and paste the following commands, first one installing the base KDE Plasma packages as well as hardware support packages for your system:
+
+```
+sudo dnf install fgjerijgei sorry I need to go and continue this later
+```
