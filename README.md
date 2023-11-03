@@ -5,7 +5,7 @@
 - 1 prerequisites
 - 2 Installation
 - 3 Installing Kde Plasma and Flatpak
-- 4 Codecs and Drivers
+- 4 Additional Software
 ## Section 0: Introduction
 
 This is a guide on how to install and configure a debloated Fedora system that will hopefully be good for beginners and experts alike, we will be covering how to install the base system as well as configuring the installed system to get you what you need for your Linux system.
