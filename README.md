@@ -26,4 +26,8 @@ You will need the following to install the new system:
 - The Fedora Everything ISO which you can download [here]([https://pages.github.com/](https://alt.fedoraproject.org/)https://alt.fedoraproject.org/)
 ## Section 2: Installation
 
-To get started you will need [Balena Etcher](https://etcher.balena.io/) dgeeerioregju got to go bye for now
+To get started you will need [Balena Etcher](https://etcher.balena.io/) to flash the iso file to your (empty) flash drive
+
+Reboot your device and when the manufacturer's logo comes up mash the boot menu key (Example for Dell is F12) and select the flash drive to boot from (if you have a Nvidia Graphics card in your device you will have to boot into the main bios menu and disable secureboot because the drivers needed can't be loaded unless you do shenanigans to get it working)
+
+More to come
