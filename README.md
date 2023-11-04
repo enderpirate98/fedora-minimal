@@ -6,6 +6,8 @@
 - 2 Installation
 - 3 Installing Kde Plasma and Flatpak
 - 4 Additional Software
+- 5 Customization
+- 6 Additional Things
 ## Section 0: Introduction
 
 This is a guide on how to install and configure a debloated Fedora system that will hopefully be good for beginners and experts alike, we will be covering how to install the base system as well as configuring the installed system to get you what you need for your Linux system.
@@ -92,4 +94,40 @@ As for ``Steam`` I have found it best to go with the native package as well as `
 
 Emulation: ``RetroArch`` is a great front-end that includes most emulators, there is ``Yuzu`` or ``Ryujinx`` for switch, all of these can be had from Flatpak, do your own research for any other emulators and for legal reasons I will not provide roms
 
-More to come
+If your device is a laptop with a Nvidia GPU you will know that it has less good battery life than others, ``Envycontrol`` allows you to disable your dGPU when you aren't using it and depending on the laptop you could get MASSIVE battry life improvements and with the ``Optimus GPU Switcher`` it makes it very easy to switch between profiles, you can find instructions for installing both [here](https://github.com/bayasdev/envycontrol)
+
+Screenshots: ``Flameshot`` from Flatpak or ``Spectacle`` as a native package
+
+Calculator: ``Kcalc`` or ``Gnome Calculator`` from Flatpak
+
+Creative work: ``Gimp``, ``Krita``, ``Inkscape``, ``Blender`` and ``Darktable`` from Flatpak
+
+Audio and Video work: ``OBS Studio`` seems to work best natively and ``Audacity`` from Flatpak
+
+Others: ``Spotify``, ``Discord``, ``VS Code`` and ``Thunderbird`` all From Flatpak
+
+There are so many more applications available for Linux but hopefully this list gives you a good idea
+
+## Section 5: Customization
+
+One of the great benefits of Linux is that everything is customizable so that it can fit your exact needs and the reason for choosing Kde Plasma as the Desktop Environment is because it is the most versatile option out there while still being user friendly
+
+There are individual parts that can be customized and they are: Global Theme, Application Style, Plasma Style, Colors, Window Decorations, Fonts, Icons, Cursors, Splash Screen, and Login Screen(Sddm)
+
+We are only going to cover a few but feel free to tinker further if you want
+
+Global Theme: System Settings>``Appearance``>``Global Theme``>``Get New Global Themes``
+
+Icons: System Settings>``Appearance``>``Icons``>``...``>``Get New Icons``
+
+Cursors: System Settings>``Appearance``>``Cursors``>``...``>``Get New Cursors``
+
+Splash Screen: System Settings>``Appearance``>``Splash Screen``>``Get New...``
+
+Login Screen(Sddm): System Settings>``Startup and Shutdown``>``Login Screen (SDDM)``>``...``>``Get New SDDM Themes...``
+
+If you want the themeing that I have follow [this guide](https://github.com/enderpirate98/Cachyos-look-and-feel) written by me
+
+## Section 6: Additional things
+
+I will do this at a later date but for now bye
