@@ -88,4 +88,8 @@ Media Players: ``VLC``&``mpv`` from Flatpak as well as ``Dragon`` as a native sy
 
 Firmware Updater: ``Gnome Firmware`` from Flatpak
 
+As for ``Steam`` I have found it best to go with the native package as well as ``Steam-devices`` because it provides all the needed drivers to make your controllers work their best
+
+Emulation: ``RetroArch`` is a great front-end that includes most emulators, there is ``Yuzu`` or ``Ryujinx`` for switch, all of these can be had from Flatpak, do your own research for any other emulators and for legal reasons I will not provide roms
+
 More to come
