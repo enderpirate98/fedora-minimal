@@ -36,7 +36,7 @@ It is recommended to leave the root user disabled for security reasons but if yo
 
 After setting your username an password, check to see if the timezone information is correct and don't forget to change the 24 hour clock to am/pm to get what you're used to (if you can't change the time format try clciking the ``Use Network Time`` toggle and switch it, don't forget to switch the toggle back)
 
-As for software selection go with the ``Minimal Install`` option and if you need wifi then somewhere in the list to the right there should be a ``NetworkManager`` option that will make connecting to wifi possible
+As for software selection go with the ``Minimal Install`` option and if you need wifi then somewhere in the list to the right there should be a ``Common NetworkManager Submodules`` option that will make connecting to wifi possible
 
 After that in the main menu click ``Begin Installation`` and wait for your (Very little packages!) Fedora system install
 
@@ -51,7 +51,7 @@ Login to your computer and type the command ``ip a`` and you will note that ther
 The hardest part is over and now copy and paste the following commands, first one installing the base KDE Plasma packages as well as hardware support packages for your system:
 
 ```
-sudo dnf install NetworkManager-config-connectivity-fedora bluedevil breeze-gtk breeze-icon-theme cagibi colord-kde dolphin glibc-all-langpacks gnome-keyring-pam kde-gtk-config kde-style-breeze kdegraphics-thumbnailers kdeplasma-addons kdialog kdnssd kf5-akonadi-server kf5-akonadi-server-mysql kf5-baloo-file kf5-kipi-plugins khotkeys kmenuedit konsole5 kscreen kscreenlocker ksysguard kwalletmanager5 kwebkitpart kwin pam-kwallet phonon-qt5-backend-gstreamer pinentry-qt plasma-breeze plasma-desktop plasma-desktop-doc plasma-drkonqi plasma-nm plasma-pa plasma-user-manager plasma-workspace plasma-workspace-geolocation polkit-kde qt5-qtbase-gui qt5-qtdeclarative sddm sddm-breeze sddm-kcm sni-qt xorg-x11-drv-libinput @"Hardware Support" @base-x @"Common NetworkManager Submodules"
+sudo dnf install NetworkManager-config-connectivity-fedora bluedevil breeze-gtk breeze-icon-theme cagibi colord-kde dolphin glibc-all-langpacks gnome-keyring-pam kde-gtk-config kde-style-breeze kdegraphics-thumbnailers kdeplasma-addons kdialog kdnssd kf5-akonadi-server kf5-akonadi-server-mysql kf5-baloo-file kf5-kipi-plugins khotkeys kmenuedit konsole5 kscreen kscreenlocker ksysguard kwalletmanager5 kwebkitpart kwin pam-kwallet phonon-qt5-backend-gstreamer pinentry-qt plasma-breeze plasma-desktop plasma-desktop-doc plasma-drkonqi plasma-nm plasma-pa plasma-user-manager plasma-workspace plasma-workspace-geolocation polkit-kde qt5-qtbase-gui qt5-qtdeclarative sddm sddm-breeze sddm-kcm sni-qt xorg-x11-drv-libinput @"Hardware Support" @base-x
 ```
 
 Next we must enable the display manager if we want the login screen to work
